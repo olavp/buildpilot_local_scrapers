@@ -466,16 +466,16 @@ while True:
     )
 
 
-    random_sleep(min_sec=30, max_sec=60)
+    # random_sleep(min_sec=30, max_sec=60)
 
-    driver.quit()
-    driver = None
-    # idx += 1
-    # print('idx:', idx)
-    # if idx % 10 == 0:
-    #     print('Shut down Driver after 10 requests')
-    #     driver.quit()
-    #     driver = None
+    # driver.quit()
+    # driver = None
+    idx += 1
+    print('idx:', idx)
+    if idx % 6 == 0:
+        print('Shut down Driver after 6 requests')
+        driver.quit()
+        driver = None
 
 
 
