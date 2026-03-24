@@ -449,18 +449,8 @@ while True:
 
 
 
-
     r = requests.post("https://www.buildpilot.com/locally-parsed-data-kjds-ldpe-qxld", json=payload)
     print('response:', r.text)
-
-    driver.quit()
-    driver = None
-    # idx += 1
-    # print('idx:', idx)
-    # if idx % 10 == 0:
-    #     print('Shut down Driver after 10 requests')
-    #     driver.quit()
-    #     driver = None
 
 
     datalogalert(
@@ -474,6 +464,19 @@ while True:
         },
         comment=None,
     )
+
+
+    random_sleep(min_sec=30, max_sec=60)
+
+    driver.quit()
+    driver = None
+    # idx += 1
+    # print('idx:', idx)
+    # if idx % 10 == 0:
+    #     print('Shut down Driver after 10 requests')
+    #     driver.quit()
+    #     driver = None
+
 
 
     # random_sleep(min_sec=30, max_sec=60)
