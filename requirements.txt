@@ -3,3 +3,4 @@ emoji==2.11.1
 requests
 selenium==3.141.0
 urllib3==1.26.18
+backports.zoneinfo
