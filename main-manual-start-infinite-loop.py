@@ -11,7 +11,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta
-from zoneinfo import ZoneInfo
+from backports.zoneinfo import ZoneInfo
 
 
 
