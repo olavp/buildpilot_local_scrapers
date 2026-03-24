@@ -11,7 +11,10 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta
-from backports.zoneinfo import ZoneInfo
+try:
+    from backports.zoneinfo import ZoneInfo
+except:
+    from zoneinfo import ZoneInfo
 
 
 
@@ -188,7 +191,7 @@ while True:
     # skip if too many last 24 hours
     print("Test 2: not too many requests in last 24 hours?")
     count_hours = 24
-    max_per_count_hours = 20
+    max_per_count_hours = 40
     count_parsed = requests.get(f"https://www.buildpilot.com/count-locally-parsed-dss/{count_hours}").text
     count_parsed = json.loads(count_parsed)
     pretty_print_dict(count_parsed)
@@ -204,6 +207,7 @@ while True:
     next_in_queue = json.loads(requests.post('https://www.buildpilot.com/next-to-scrape-kjds-ldpe-qxld').text)
     pretty_print_dict(next_in_queue)
     if next_in_queue["status"] == "no-queue":
+
         if driver is not None:
             driver.quit()
             driver = None
@@ -449,12 +453,14 @@ while True:
     r = requests.post("https://www.buildpilot.com/locally-parsed-data-kjds-ldpe-qxld", json=payload)
     print('response:', r.text)
 
-    idx += 1
-    print('idx:', idx)
-    if idx % 10 == 0:
-        print('Shut down Driver after 10 requests')
-        driver.quit()
-        driver = None
+    driver.quit()
+    driver = None
+    # idx += 1
+    # print('idx:', idx)
+    # if idx % 10 == 0:
+    #     print('Shut down Driver after 10 requests')
+    #     driver.quit()
+    #     driver = None
 
 
     datalogalert(
@@ -475,8 +481,8 @@ while True:
     random_sleep(min_sec=300, max_sec=600)
 
 
-if driver:
-    driver.quit()
-    driver = None
+# if driver:
+#     driver.quit()
+#     driver = None
 
 
