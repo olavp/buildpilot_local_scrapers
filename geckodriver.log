@@ -1,0 +1,41 @@
+1773850181426	geckodriver	INFO	Listening on 127.0.0.1:40513
+1773850412980	geckodriver	INFO	Listening on 127.0.0.1:52733
+1773850422773	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/snap/firefox/current/usr/lib/firefox/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileypVpIi"
+Gtk-Message: 17:13:42.812: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1773850423349	Marionette	INFO	Marionette enabled
+1773850423443	Marionette	INFO	Listening on port 34911
+Read port: 34911
+1773850423531	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: asm.js type error: Asm.js optimizer disabled by 'asmjs' runtime option
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 1: asm.js is deprecated and should no longer be used. Please recompile using WebAssembly to get the best performance.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: asm.js type error: Asm.js optimizer disabled by 'asmjs' runtime option
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 1: asm.js is deprecated and should no longer be used. Please recompile using WebAssembly to get the best performance.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/7901/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
