@@ -192,8 +192,7 @@ while True:
     print("Test 2: not too many requests in last 24 hours?")
     count_hours = 24
     max_per_count_hours = 60
-    count_parsed = requests.get(f"https://www.buildpilot.com/count-locally-parsed-dss/{count_hours}").text
-    count_parsed = json.loads(count_parsed)
+    count_parsed = json.loads(requests.get(f"https://www.buildpilot.com/count-locally-parsed-dss/{count_hours}").text)
     pretty_print_dict(count_parsed)
     if count_parsed["count_dss"] > max_per_count_hours:
         print(f" --> failed test 2: too many parsed in last {count_hours} hours --> do not run")
@@ -461,6 +460,7 @@ while True:
         alert_name=None,
         counters={
             'queue': max(next_in_queue["count_queue"] - 1, 0),
+            'parsed_last_24_hours': json.loads(requests.get(f"https://www.buildpilot.com/count-locally-parsed-dss/{count_hours}").text)["count_dss"], 
         },
         comment=None,
     )
