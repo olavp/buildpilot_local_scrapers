@@ -191,7 +191,7 @@ while True:
     # skip if too many last 24 hours
     print("Test 2: not too many requests in last 24 hours?")
     count_hours = 24
-    max_per_count_hours = 40
+    max_per_count_hours = 60
     count_parsed = requests.get(f"https://www.buildpilot.com/count-locally-parsed-dss/{count_hours}").text
     count_parsed = json.loads(count_parsed)
     pretty_print_dict(count_parsed)
