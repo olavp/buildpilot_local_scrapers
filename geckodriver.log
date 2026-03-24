@@ -39,3 +39,1367 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1774355841840	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.i2zQN2QNRoEU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1774355842658	Marionette	INFO	Marionette enabled
+1774355842663	Marionette	INFO	Listening on port 34195
+console.error: "Warning: unrecognized command line flag -foreground\n"
+1774355842819	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 8ms)
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/cfr Signature failed  InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/cfr local data was corrupted
+console.warn: services.settings: main/cfr Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/cfr Signature failed again InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/whats-new-panel Signature failed  InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/whats-new-panel local data was corrupted
+console.warn: services.settings: main/whats-new-panel Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/whats-new-panel Signature failed again InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.aid.no."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1774356178109	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SUdDM4muUlwV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1774356178946	Marionette	INFO	Marionette enabled
+1774356178949	Marionette	INFO	Listening on port 41515
+console.error: "Warning: unrecognized command line flag -foreground\n"
+1774356179101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/cfr Signature failed  InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/cfr local data was corrupted
+console.warn: services.settings: main/cfr Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/cfr Signature failed again InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/whats-new-panel Signature failed  InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/whats-new-panel local data was corrupted
+console.warn: services.settings: main/whats-new-panel Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/whats-new-panel Signature failed again InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+[Child 6572, MediaDecoderStateMachine #1] WARNING: Decoder=7f6f205cfe00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 6572, MediaDecoderStateMachine #1] WARNING: Decoder=7f6f205d0700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.aid.no."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.aid.no."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.aid.no."
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/vdzqf/0x4AAAAAAAxwqaCE-4D-3vCt/light/fbE/new/flexible?lang=nb-no, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+console.error: services.settings: 
+  main/search-telemetry-v2 Signature failed  InvalidSignatureError: Invalid content signature (main/search-telemetry-v2) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/search-telemetry-v2 local data was corrupted
+console.warn: services.settings: main/search-telemetry-v2 Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/search-telemetry-v2 Signature failed again InvalidSignatureError: Invalid content signature (main/search-telemetry-v2) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/search-telemetry-v2) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/devtools-compatibility-browsers Signature failed  InvalidSignatureError: Invalid content signature (main/devtools-compatibility-browsers) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: services.settings: 
+  main/devtools-compatibility-browsers local data was corrupted
+console.warn: services.settings: main/devtools-compatibility-browsers Signature verified failed. Retry from scratch
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+console.error: services.settings: 
+  main/devtools-compatibility-browsers Signature failed again InvalidSignatureError: Invalid content signature (main/devtools-compatibility-browsers) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/devtools-compatibility-browsers) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/devtools-devices Signature failed  InvalidSignatureError: Invalid content signature (main/devtools-devices) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/devtools-devices local data was corrupted
+console.warn: services.settings: main/devtools-devices Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/devtools-devices Signature failed again InvalidSignatureError: Invalid content signature (main/devtools-devices) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/devtools-devices) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed again InvalidSignatureError: Invalid content signature (main/doh-providers) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/doh-providers) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/websites-with-shared-credential-backends Signature failed  InvalidSignatureError: Invalid content signature (main/websites-with-shared-credential-backends) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/websites-with-shared-credential-backends local data was corrupted
+console.warn: services.settings: main/websites-with-shared-credential-backends Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/websites-with-shared-credential-backends Signature failed again InvalidSignatureError: Invalid content signature (main/websites-with-shared-credential-backends) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/websites-with-shared-credential-backends) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/password-rules Signature failed  InvalidSignatureError: Invalid content signature (main/password-rules) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/password-rules local data was corrupted
+console.warn: services.settings: main/password-rules Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/password-rules Signature failed again InvalidSignatureError: Invalid content signature (main/password-rules) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/password-rules) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/top-sites Signature failed  InvalidSignatureError: Invalid content signature (main/top-sites) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/top-sites local data was corrupted
+console.warn: services.settings: main/top-sites Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/top-sites Signature failed again InvalidSignatureError: Invalid content signature (main/top-sites) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/top-sites) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed again InvalidSignatureError: Invalid content signature (main/doh-config) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/doh-config) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/cfr Signature failed  InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/cfr local data was corrupted
+console.warn: services.settings: main/cfr Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/cfr Signature failed again InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/search-default-override-allowlist Signature failed  InvalidSignatureError: Invalid content signature (main/search-default-override-allowlist) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/search-default-override-allowlist local data was corrupted
+console.warn: services.settings: main/search-default-override-allowlist Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/search-default-override-allowlist Signature failed again InvalidSignatureError: Invalid content signature (main/search-default-override-allowlist) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/search-default-override-allowlist) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/url-classifier-skip-urls Signature failed  InvalidSignatureError: Invalid content signature (main/url-classifier-skip-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/url-classifier-skip-urls local data was corrupted
+console.warn: services.settings: main/url-classifier-skip-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/url-classifier-skip-urls Signature failed again InvalidSignatureError: Invalid content signature (main/url-classifier-skip-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/url-classifier-skip-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/normandy-recipes-capabilities Signature failed  InvalidSignatureError: Invalid content signature (main/normandy-recipes-capabilities) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/normandy-recipes-capabilities local data was corrupted
+console.warn: services.settings: main/normandy-recipes-capabilities Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/normandy-recipes-capabilities Signature failed again InvalidSignatureError: Invalid content signature (main/normandy-recipes-capabilities) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/normandy-recipes-capabilities) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/cookie-banner-rules-list Signature failed  InvalidSignatureError: Invalid content signature (main/cookie-banner-rules-list) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/cookie-banner-rules-list local data was corrupted
+console.warn: services.settings: main/cookie-banner-rules-list Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/cookie-banner-rules-list Signature failed again InvalidSignatureError: Invalid content signature (main/cookie-banner-rules-list) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/cookie-banner-rules-list) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/search-config Signature failed  InvalidSignatureError: Invalid content signature (main/search-config) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/search-config local data was corrupted
+console.warn: services.settings: main/search-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/search-config Signature failed again InvalidSignatureError: Invalid content signature (main/search-config) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/search-config) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  InvalidSignatureError: Invalid content signature (main/addons-manager-settings) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/addons-manager-settings local data was corrupted
+console.warn: services.settings: main/addons-manager-settings Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed again InvalidSignatureError: Invalid content signature (main/addons-manager-settings) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/addons-manager-settings) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/whats-new-panel Signature failed  InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/whats-new-panel local data was corrupted
+console.warn: services.settings: main/whats-new-panel Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/whats-new-panel Signature failed again InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed  InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 local data was corrupted
+console.warn: services.settings: main/pioneer-study-addons-v1 Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed again InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.warn: services.settings: main/hijack-blocklists Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/hijack-blocklists Signature failed again InvalidSignatureError: Invalid content signature (main/hijack-blocklists) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/hijack-blocklists) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.warn: services.settings: main/anti-tracking-url-decoration Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/anti-tracking-url-decoration Signature failed again InvalidSignatureError: Invalid content signature (main/anti-tracking-url-decoration) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/anti-tracking-url-decoration) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.warn: services.settings: main/sites-classification Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/sites-classification Signature failed again InvalidSignatureError: Invalid content signature (main/sites-classification) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/sites-classification) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1021:13
+
+console.error: (new InvalidSignatureError("Invalid content signature (main/search-telemetry-v2) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rchL4rzpESFmKzzChdOe6ia37GQL7_ahHPUjl9d1oQfSGA-1774356206-1.3.1.1-W4Vi1HHd_zPzfkKoMnEjvtHdQdEOP9etWqfXykVk.Zg/vdzqf/0x4AAAAAAAxwqaCE-4D-3vCt/light/fbE/failure_retry/flexible?lang=nb-no, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch_WEbMAu2wAZg2kkH8VDZ7bFBXV0c1lu148_eY2P6_mM-1774356219-1.3.1.1-RGrbK3TP8Sy37cDvyJT6BySMA2fd_HAGP3NAqMnXICg/vdzqf/0x4AAAAAAAxwqaCE-4D-3vCt/light/fbE/failure_retry/flexible?lang=nb-no, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.aid.no."
+JavaScript error: https://www.cloudflare.com/_willow/index.astro_astro_type_script_index_0_lang.Bohk0b1y.js, line 1: TypeError: s.querySelectorAll(...).values().toArray is not a function
+JavaScript error: https://www.cloudflare.com/_willow/client.DVocGn_n.js, line 22: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.cloudflare.com/_willow/client.DVocGn_n.js, line 22: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.cloudflare.com/_willow/client.DVocGn_n.js, line 22: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.cloudflare.com/_willow/client.DVocGn_n.js, line 24: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/yt9l7/0x4AAAAAAAaFLwutFA_ZjmEX/auto/fbE/new/normal?lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/xcsh6/0x4AAAAAAAaFLwutFA_ZjmEX/auto/fbE/new/normal?lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 6467, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 6467, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 6467, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 6467, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 6467, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 6467, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 6467, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 6467, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1774356299712	Marionette	INFO	Stopped listening on port 41515
+1774356418499	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.erE5tIb8AgFN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1774356419087	Marionette	INFO	Marionette enabled
+1774356419090	Marionette	INFO	Listening on port 34511
+console.error: "Warning: unrecognized command line flag -foreground\n"
+1774356419234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/cfr Signature failed  InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/cfr local data was corrupted
+console.warn: services.settings: main/cfr Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/cfr Signature failed again InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/whats-new-panel Signature failed  InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/whats-new-panel local data was corrupted
+console.warn: services.settings: main/whats-new-panel Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/whats-new-panel Signature failed again InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+[Child 11723, MediaDecoderStateMachine #1] WARNING: Decoder=7fd152afcc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 11723, MediaDecoderStateMachine #1] WARNING: Decoder=7fd152afcf00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+[Child 11614, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 11614, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 11614, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 11614, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 11614, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 11614, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 11614, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 11614, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1774356443873	Marionette	INFO	Stopped listening on port 34511
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1774356876523	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xJwAeI5wIDVJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1774356877116	Marionette	INFO	Marionette enabled
+1774356877118	Marionette	INFO	Listening on port 42177
+console.error: "Warning: unrecognized command line flag -foreground\n"
+1774356877276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/cfr Signature failed  InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/cfr local data was corrupted
+console.warn: services.settings: main/cfr Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/cfr Signature failed again InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/whats-new-panel Signature failed  InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/whats-new-panel local data was corrupted
+console.warn: services.settings: main/whats-new-panel Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/whats-new-panel Signature failed again InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+[Child 21040, MediaDecoderStateMachine #1] WARNING: Decoder=7f22345fb700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 21040, MediaDecoderStateMachine #1] WARNING: Decoder=7f22345fb700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+[Child 20978, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20978, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20978, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20978, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20978, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20978, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20978, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 20978, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1774356894162	Marionette	INFO	Stopped listening on port 42177
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1774356968197	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Xdqb6XD2HFJZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1774356968756	Marionette	INFO	Marionette enabled
+1774356968759	Marionette	INFO	Listening on port 41441
+console.error: "Warning: unrecognized command line flag -foreground\n"
+1774356968945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/cfr Signature failed  InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/cfr local data was corrupted
+console.warn: services.settings: main/cfr Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/cfr Signature failed again InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/whats-new-panel Signature failed  InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/whats-new-panel local data was corrupted
+console.warn: services.settings: main/whats-new-panel Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/whats-new-panel Signature failed again InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774356976042	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1774358558037	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JWN1hMYykEIt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1774358558748	Marionette	INFO	Marionette enabled
+1774358558752	Marionette	INFO	Listening on port 33291
+console.error: "Warning: unrecognized command line flag -foreground\n"
+1774358558935	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/cfr Signature failed  InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/cfr local data was corrupted
+console.warn: services.settings: main/cfr Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/cfr Signature failed again InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/whats-new-panel Signature failed  InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/whats-new-panel local data was corrupted
+console.warn: services.settings: main/whats-new-panel Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/whats-new-panel Signature failed again InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774358566169	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774358638326	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774358691656	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774358761881	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 8ms)
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774358808924	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript error: https://cl.k5a.io/6143532e3fb9a76297593ea2.js, line 24: ReferenceError: kilkaya is not defined
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda649fb00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda64a0400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda7a30200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda649e000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda754ad00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda754a100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda754b600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda754bf00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda754c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda649e000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda6266300 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda6266c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda6267800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda6266900 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda6267500 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda6267e00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda6266c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda6267800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda6265700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda7a30b00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda754c200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda78a5100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda7a30b00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda780a800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda5ca6100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda5ca8200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda5ca9400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda754dd00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda78c1500 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 18866, MediaDecoderStateMachine #1] WARNING: Decoder=7fdda78a5d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1774358874026	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1774358876307	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript error: https://cl.k5a.io/6143532e3fb9a76297593ea2.js, line 24: ReferenceError: kilkaya is not defined
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774358917510	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1774358919534	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774358967015	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1774359014317	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1774359016775	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://a80838043406fd3ad500d07d56bd909d.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html, line 2: SecurityError: Permission denied to access property "addEventListener" on cross-origin object
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774359077393	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1774359080347	Marionette	INFO	Stopped listening on port 33291
+[Child 12225, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 12225, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 12225, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 12225, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 12225, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 12225, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 12225, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 12225, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1774359120594	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.80XLMFUk8mB6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1774359121164	Marionette	INFO	Marionette enabled
+1774359121167	Marionette	INFO	Listening on port 43339
+console.error: "Warning: unrecognized command line flag -foreground\n"
+1774359121381	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/cfr Signature failed  InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/cfr local data was corrupted
+console.warn: services.settings: main/cfr Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/cfr Signature failed again InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/whats-new-panel Signature failed  InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/whats-new-panel local data was corrupted
+console.warn: services.settings: main/whats-new-panel Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/whats-new-panel Signature failed again InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+JavaScript error: , line 0: TypeError: Unable to fetch https://cl.k5a.io/6143532e3fb9a76297593ea2.js - see network log for details.
+NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774359129193	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+JavaScript error: https://cl.k5a.io/6143532e3fb9a76297593ea2.js, line 24: ReferenceError: kilkaya is not defined
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1774359192246	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 9ms)
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774359252444	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 8ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774359257673	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript error: https://7b6b55432ee1e284953930d970760605.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html, line 2: SecurityError: Permission denied to access property "addEventListener" on cross-origin object
+1774359314592	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1774359379696	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+JavaScript error: https://cl.k5a.io/6143532e3fb9a76297593ea2.js, line 24: ReferenceError: kilkaya is not defined
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774359437250	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+JavaScript error: https://cl.k5a.io/6143532e3fb9a76297593ea2.js, line 24: ReferenceError: kilkaya is not defined
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f9123629900 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f9124b1a800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f9124b1a500 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f9124b19900 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f9124b14300 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f9124b1a500 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91245fa700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91245fb900 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91245fa100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91245fad00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91234fea00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91234fed00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91245fa700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91247e4e00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91251f3100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91251f3d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f9125b1b800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91234fe700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91237e3700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f9125b1af00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91237e3d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91237e2b00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91245fb000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91237e3400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91234fd200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f912362a800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f912362b400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f912362a500 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f9125bf6a00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91245fa100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f9125b1bb00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f912378e100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91234fe100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f912362a200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f9125bf7000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f912378e700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f9124b1b400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f91237e2500 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 3975, MediaDecoderStateMachine #1] WARNING: Decoder=7f9125b1cd00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774359478938	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 8ms)
+JavaScript error: https://cl.k5a.io/6143532e3fb9a76297593ea2.js, line 24: ReferenceError: kilkaya is not defined
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfd800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfc000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfcc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfde00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc8707f00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3e73100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3e73d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfdb00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfbd00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3c6f600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3c71d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3c71a00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3e73400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfbd00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc4333f00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3e76100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfba00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3c71100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3e75b00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc626e600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfb100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc4333000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfd200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc631a400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc631b600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3c6f300 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3c6e100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc4333000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc7a33000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfcc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfb100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3e75b00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3c6f000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3c6e100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3c6f000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc62eb600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfc900 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3c71400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3e75b00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc63b1200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc7a33600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc63b1b00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc7a33300 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc7a34b00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc631b900 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3e74300 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc7a84900 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc7a34800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc7a35a00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc7a84f00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc7a3a600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc7a85200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc7a3c400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc7a84000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc7a84c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc7a32d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfba00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3e73a00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc2dfc900 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 5859, MediaDecoderStateMachine #1] WARNING: Decoder=7fbdc3e74300 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+1774359525323	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+[Child 8099, MediaDecoderStateMachine #1] WARNING: Decoder=7feffddd3400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+1774359583494	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774359652314	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1774359654097	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1774359659786	Marionette	INFO	Stopped listening on port 43339
+[Child 26712, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 26712, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 26712, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 26712, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 26712, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 26712, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 26712, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 26712, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox-DxjVTE/firefox-113.0.2+build1/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1774359698436	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qmPfTVH7Dx24"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1774359698987	Marionette	INFO	Marionette enabled
+1774359698989	Marionette	INFO	Listening on port 34411
+console.error: "Warning: unrecognized command line flag -foreground\n"
+1774359699144	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/cfr Signature failed  InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/cfr local data was corrupted
+console.warn: services.settings: main/cfr Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/cfr Signature failed again InvalidSignatureError: Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/cfr) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/message-groups Signature failed  InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: services.settings: 
+  main/message-groups local data was corrupted
+console.warn: services.settings: main/message-groups Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/message-groups Signature failed again InvalidSignatureError: Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/message-groups) using 'remote-settings.content-signature.mozilla.org-2026-05-07-11-22-02.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+console.error: services.settings: 
+  main/whats-new-panel Signature failed  InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/whats-new-panel local data was corrupted
+console.warn: services.settings: main/whats-new-panel Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/whats-new-panel Signature failed again InvalidSignatureError: Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/whats-new-panel) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2026-04-17-11-20-45.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 169))
+JavaScript warning: https://assets.acdn.no/pkg/importmap/2.6.0/es-module-shims-js/es-module-shims.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript error: https://assets.acdn.no/pkg/rabarbara/0.0.1-1774335665536/js/cookie.browser.js, line 1: TypeError: indexedDB.databases is not a function
+1774359706295	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofile.qmPfTVH7Dx24/thumbnails) because it does not exist

@@ -192,7 +192,8 @@ def data_16_local_machine_scrape_amedia_articles(max_runtime_in_minutes=20):
 
         if driver is None:
             print('Preare NEW driver')
-            profile_path = '/home/olav/snap/firefox/common/.mozilla/firefox/1iapehrt.default'
+            # profile_path = '/home/scraper/snap/firefox/common/.mozilla/firefox/1iapehrt.default'
+            profile_path = "/home/scraper/.mozilla/firefox/i0to7fjz.Newspapers"
             fp = webdriver.FirefoxProfile(profile_path)
             driver = webdriver.Firefox(fp)
 
