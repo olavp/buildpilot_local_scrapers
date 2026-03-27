@@ -60,6 +60,31 @@ def request_url(my_url):
         return None
 
 
+def retry_request(request_func, failure_message, max_retries=20):
+    last_exception = None
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            return request_func()
+        except Exception as err:
+            last_exception = err
+            print(failure_message)
+            print("Retry count:", attempt, "of", max_retries)
+
+            if attempt < max_retries:
+                print("Sleeping", 30 * attempt, "secs...")
+                time.sleep(30 * attempt)
+
+    print("All attempts failed. Shutting down")
+    raise last_exception
+
+
+def request_json(method, url):
+    response = requests.request(method, url)
+    response.raise_for_status()
+    return json.loads(response.text)
+
+
 def datalogalert(
     project_key=None,
     action=None,
@@ -95,32 +120,19 @@ def datalogalert(
 
     print("posting datalogalert.com API:", heartbeat_url)
 
-    x = 0
-    max_retries = 20
-    for attempt in range(max_retries):
-        x = x + 1
+    def do_request():
+        json_response = request_url(heartbeat_url)
+        print("json_response:", json_response)
+        json_response = json.loads(json_response)
 
-        try:
-            json_response = request_url(heartbeat_url)
-            print("json_response:", json_response)
-            json_response = json.loads(json_response)
+        if action == "make_alert":
+            return json_response["alert"]["alert_name"]
+        return json_response["runtime"]["runtime_key"]
 
-            if action == "make_alert":
-                return json_response["alert"]["alert_name"]
-            return json_response["runtime"]["runtime_key"]
-        except:
-            print("Failed to call datalogalert API")
-            print("url:", heartbeat_url)
-            print("Retry count:", x, "of", max_retries)
-            print("Sleeping", 30 * x, "secs...")
-            time.sleep(30 * x)
-
-        else:
-            pass
-
-    else:
-        print("All attempts to call datalogalert API failed. Shutting down")
-        raise
+    return retry_request(
+        do_request,
+        f"Failed to call datalogalert API\nurl: {heartbeat_url}",
+    )
 
 
 def pretty_print_dict(dct):
@@ -192,7 +204,10 @@ while True:
     print("Test 2: not too many requests in last 24 hours?")
     count_hours = 24
     max_per_count_hours = 60
-    count_parsed = json.loads(requests.get(f"https://www.buildpilot.com/count-locally-parsed-dss/{count_hours}").text)
+    count_parsed = retry_request(
+        lambda: request_json("GET", f"https://www.buildpilot.com/count-locally-parsed-dss/{count_hours}"),
+        f"Failed to GET https://www.buildpilot.com/count-locally-parsed-dss/{count_hours}",
+    )
     pretty_print_dict(count_parsed)
     if count_parsed["count_dss"] > max_per_count_hours:
         print(f" --> failed test 2: too many parsed in last {count_hours} hours --> do not run")
@@ -203,7 +218,10 @@ while True:
     print("Test 3: any in queue?")
     print('=')
     print("calling: https://www.buildpilot.com/next-to-scrape-kjds-ldpe-qxld")
-    next_in_queue = json.loads(requests.post('https://www.buildpilot.com/next-to-scrape-kjds-ldpe-qxld').text)
+    next_in_queue = retry_request(
+        lambda: request_json("POST", 'https://www.buildpilot.com/next-to-scrape-kjds-ldpe-qxld'),
+        "Failed to POST https://www.buildpilot.com/next-to-scrape-kjds-ldpe-qxld",
+    )
     pretty_print_dict(next_in_queue)
     if next_in_queue["status"] == "no-queue":
 
@@ -487,5 +505,3 @@ while True:
 # if driver:
 #     driver.quit()
 #     driver = None
-
-
