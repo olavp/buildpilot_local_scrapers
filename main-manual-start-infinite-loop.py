@@ -344,125 +344,144 @@ while True:
 
         # raise RuntimeError('DEBUG Prompt upgrade! 2')
 
-    soup = BeautifulSoup(driver.page_source, "html.parser")
 
-    published_on_str = soup.find("meta", {"property": "article:published_time"})["content"]
+    skip_this_page = False
+    if "<h1>Siden finnes ikke</h1>" in html_full:
+        skip_this_page = True
 
-    elements = []
+    if skip_this_page:
 
-    h1_ele = soup.find('h1', itemprop='headline')
-    if h1_ele is None:
-        h1_ele = soup.find("h1", class_=lambda c: c and "title" in c.split())
-    h1 = h1_ele.decode_contents().strip()
-    elements.append("# " + h1)
-    elements.append("")
+        payload = {
+            "db_id": next_in_queue["ds"]["db_id"],
+            "full_text": None,
+            "published_on_str": None,
+            "skip_this_page": skip_this_page
+        }
 
-    p = soup.find('p', {'data-content': 'lead-text'})
-    ingress = p.decode_contents().strip() if p else None
-    if ingress:
-        elements.append("## " + ingress)
+    else:
+
+
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+
+        published_on_str = soup.find("meta", {"property": "article:published_time"})["content"]
+
+        elements = []
+
+        h1_ele = soup.find('h1', itemprop='headline')
+        if h1_ele is None:
+            h1_ele = soup.find("h1", class_=lambda c: c and "title" in c.split())
+        h1 = h1_ele.decode_contents().strip()
+        elements.append("# " + h1)
         elements.append("")
 
-    body = soup.find('div', {'data-content': 'body-text'})
+        p = soup.find('p', {'data-content': 'lead-text'})
+        ingress = p.decode_contents().strip() if p else None
+        if ingress:
+            elements.append("## " + ingress)
+            elements.append("")
 
-    did_exclude_related_teaser = False
+        body = soup.find('div', {'data-content': 'body-text'})
 
-    block_tags = ['p', 'h2', 'h3', 'li']
+        did_exclude_related_teaser = False
 
-    for tag in body.find_all(block_tags, recursive=True):
-        if tag.find(block_tags):
-            print('skip 0:', tag.get_text(strip=False))
-            continue
+        block_tags = ['p', 'h2', 'h3', 'li']
 
-        if tag.find_parent('a', class_='related-teaser'):
-            print('skip 1:', tag.get_text(strip=False))
-            did_exclude_related_teaser = True
-            continue
-        if ('related-teaser' in tag.get('class', [])) or tag.find_parent(class_='related-teaser'):
-            print('skip 3:', tag.get_text(strip=False))
-            did_exclude_related_teaser = True
-            continue
-        if tag.find('a', class_='related-teaser'):
-            print('skip 4:', tag.get_text(strip=False))
-            did_exclude_related_teaser = True
-            continue
-        if tag.name == 'p' and tag.get('data-content') == 'lead-text':
-            print('skip 5:', tag.get_text(strip=False))
-            continue
-        if tag.find_parent('amedia-placeholder'):
-            print('skip 6:', tag.get_text(strip=False))
-            continue
-        if tag.find_parent('div', class_='title-wrapper'):
-            print('skip 7:', tag.get_text(strip=False))
-            continue
-        if tag.find_parent('graff-enkel-poll'):
-            print('skip 8:', tag.get_text(strip=False))
-            continue
+        for tag in body.find_all(block_tags, recursive=True):
+            if tag.find(block_tags):
+                print('skip 0:', tag.get_text(strip=False))
+                continue
 
-        do_skip_class = False
-        for skip_class in ["article-tags-bottom", "graff-enkel-poll", "brick-teaser-player-overlay"]:
-            if (skip_class in tag.get('class', [])) or tag.find_parent(class_=skip_class):
-                print('skip 9: class', skip_class, '| content:', tag.get_text(strip=False))
-                do_skip_class = True
-                break
-        if do_skip_class:
-            continue
+            if tag.find_parent('a', class_='related-teaser'):
+                print('skip 1:', tag.get_text(strip=False))
+                did_exclude_related_teaser = True
+                continue
+            if ('related-teaser' in tag.get('class', [])) or tag.find_parent(class_='related-teaser'):
+                print('skip 3:', tag.get_text(strip=False))
+                did_exclude_related_teaser = True
+                continue
+            if tag.find('a', class_='related-teaser'):
+                print('skip 4:', tag.get_text(strip=False))
+                did_exclude_related_teaser = True
+                continue
+            if tag.name == 'p' and tag.get('data-content') == 'lead-text':
+                print('skip 5:', tag.get_text(strip=False))
+                continue
+            if tag.find_parent('amedia-placeholder'):
+                print('skip 6:', tag.get_text(strip=False))
+                continue
+            if tag.find_parent('div', class_='title-wrapper'):
+                print('skip 7:', tag.get_text(strip=False))
+                continue
+            if tag.find_parent('graff-enkel-poll'):
+                print('skip 8:', tag.get_text(strip=False))
+                continue
 
-        if tag.name == 'p':
-            raw = tag.decode_contents()
+            do_skip_class = False
+            for skip_class in ["article-tags-bottom", "graff-enkel-poll", "brick-teaser-player-overlay"]:
+                if (skip_class in tag.get('class', [])) or tag.find_parent(class_=skip_class):
+                    print('skip 9: class', skip_class, '| content:', tag.get_text(strip=False))
+                    do_skip_class = True
+                    break
+            if do_skip_class:
+                continue
 
-            raw = re.sub(
-                r'^\s*(\(<[^>]+>.*?<\/[^>]+>\)|<a[^>]*>\([^)]*\)<\/a>|\([^)]*\))\s*',
-                '',
-                raw
-            )
+            if tag.name == 'p':
+                raw = tag.decode_contents()
 
-            text = BeautifulSoup(raw, 'html.parser').get_text(strip=False)
+                raw = re.sub(
+                    r'^\s*(\(<[^>]+>.*?<\/[^>]+>\)|<a[^>]*>\([^)]*\)<\/a>|\([^)]*\))\s*',
+                    '',
+                    raw
+                )
 
-        else:
-            text = tag.get_text(strip=False)
+                text = BeautifulSoup(raw, 'html.parser').get_text(strip=False)
 
-        if not text:
-            continue
+            else:
+                text = tag.get_text(strip=False)
 
-        text = remove_empty_lines_and_strip(text)
+            if not text:
+                continue
 
-        if text.startswith('Foto: '):
-            print('skip 10:', tag.get_text(strip=False))
-            text = None
-            continue
-        if text.lower() in ['les også:', 'annonse', 'lukk bildet', 'vi vil gjerne høre om smått og stort som foregår i distriktet']:
-            print('skip 11:', tag.get_text(strip=False))
-            text = None
-            continue
+            text = remove_empty_lines_and_strip(text)
 
-        text = "\n".join([line for line in text.split("\n") if not line.startswith("Foto:")]).strip()
+            if text.startswith('Foto: '):
+                print('skip 10:', tag.get_text(strip=False))
+                text = None
+                continue
+            if text.lower() in ['les også:', 'annonse', 'lukk bildet', 'vi vil gjerne høre om smått og stort som foregår i distriktet']:
+                print('skip 11:', tag.get_text(strip=False))
+                text = None
+                continue
 
-        if text == "":
-            continue
+            text = "\n".join([line for line in text.split("\n") if not line.startswith("Foto:")]).strip()
 
-        if tag.name == 'h2':
-            text = "\n## " + text
-        elif tag.name == 'li':
-            text = "• " + text
+            if text == "":
+                continue
 
-        elements.append(text)
+            if tag.name == 'h2':
+                text = "\n## " + text
+            elif tag.name == 'li':
+                text = "• " + text
 
-    article_text = '\n'.join(elements)
+            elements.append(text)
 
-    article_text = remove_emojis(article_text)
+        article_text = '\n'.join(elements)
 
-    print('------------')
-    print(article_text)
-    print('------------')
+        article_text = remove_emojis(article_text)
 
-    print("did_exclude_related_teaser:", did_exclude_related_teaser)
+        print('------------')
+        print(article_text)
+        print('------------')
 
-    payload = {
-        "db_id": next_in_queue["ds"]["db_id"],
-        "full_text": article_text,
-        "published_on_str": published_on_str,
-    }
+        print("did_exclude_related_teaser:", did_exclude_related_teaser)
+
+        payload = {
+            "db_id": next_in_queue["ds"]["db_id"],
+            "full_text": article_text,
+            "published_on_str": published_on_str,
+            "skip_this_page": skip_this_page
+            
+        }
 
 
 
