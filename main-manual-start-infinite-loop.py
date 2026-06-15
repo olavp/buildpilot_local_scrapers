@@ -205,8 +205,8 @@ while True:
     count_hours = 24
     max_per_count_hours = 60
     count_parsed = retry_request(
-        lambda: request_json("GET", f"https://www.buildpilot.com/count-locally-parsed-dss/{count_hours}"),
-        f"Failed to GET https://www.buildpilot.com/count-locally-parsed-dss/{count_hours}",
+        lambda: request_json("GET", f"https://norskbyggedata.no/count-locally-parsed-dss/{count_hours}"),
+        f"Failed to GET https://norskbyggedata.no/count-locally-parsed-dss/{count_hours}",
     )
     pretty_print_dict(count_parsed)
     if count_parsed["count_dss"] > max_per_count_hours:
@@ -217,10 +217,10 @@ while True:
 
     print("Test 3: any in queue?")
     print('=')
-    print("calling: https://www.buildpilot.com/next-to-scrape-kjds-ldpe-qxld")
+    print("calling: https://norskbyggedata.no/next-to-scrape-kjds-ldpe-qxld")
     next_in_queue = retry_request(
-        lambda: request_json("POST", 'https://www.buildpilot.com/next-to-scrape-kjds-ldpe-qxld'),
-        "Failed to POST https://www.buildpilot.com/next-to-scrape-kjds-ldpe-qxld",
+        lambda: request_json("POST", 'https://norskbyggedata.no/next-to-scrape-kjds-ldpe-qxld'),
+        "Failed to POST https://norskbyggedata.no/next-to-scrape-kjds-ldpe-qxld",
     )
     pretty_print_dict(next_in_queue)
     if next_in_queue["status"] == "no-queue":
@@ -485,7 +485,7 @@ while True:
 
 
 
-    r = requests.post("https://www.buildpilot.com/locally-parsed-data-kjds-ldpe-qxld", json=payload)
+    r = requests.post("https://norskbyggedata.no/locally-parsed-data-kjds-ldpe-qxld", json=payload)
     print('response:', r.text)
 
 
@@ -497,7 +497,7 @@ while True:
         alert_name=None,
         counters={
             'queue': max(next_in_queue["count_queue"] - 1, 0),
-            'parsed_last_24_hours': json.loads(requests.get(f"https://www.buildpilot.com/count-locally-parsed-dss/{count_hours}").text)["count_dss"], 
+            'parsed_last_24_hours': json.loads(requests.get(f"https://norskbyggedata.no/count-locally-parsed-dss/{count_hours}").text)["count_dss"], 
         },
         comment=None,
     )
